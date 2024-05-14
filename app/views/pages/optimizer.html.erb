@@ -1,0 +1,15 @@
+<h1>Optimizer</h1>
+
+<%= form_tag(submit_data_path, method: :post) do %>
+  <div>
+    <%= label_tag :data1, "Data 1:" %>
+    <%= text_field_tag :data1 %>
+  </div>
+
+  <div>
+    <%= label_tag :data2, "Data 2:" %>
+    <%= text_field_tag :data2 %>
+  </div>
+
+  <%= submit_tag "Submit" %>
+<% end %>
