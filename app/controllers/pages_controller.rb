@@ -10,6 +10,6 @@ class PagesController < ApplicationController
   end
 
   def outcome
-    raise
+
   end
 end
